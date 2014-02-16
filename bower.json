@@ -1,6 +1,18 @@
 {
-  "name": "crypto-js",
-  "version": "3.1.2",
+  "name": "jakubzapletal-crypto-js",
+  "version": "3.1.0",
+  "title": "CryptoJS",
+  "homepage": "https://github.com/jakubzapletal/crypto-js",
+  "description": "CryptoJS is a growing collection of standard and secure cryptographic algorithms",
+  "author": {
+    "name": "Jakub Zapletal",
+    "email": "zapletal.jakub@gmail.com",
+    "url": "http://www.jakubzapletal.cz"
+  },
+  "licence": {
+    "type": "MIT",
+    "url": "https://github.com/jakubzapletal/crypto-js/blob/master/LICENCE"
+  },
   "dependencies": {
   }
 }

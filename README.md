@@ -2,6 +2,16 @@
 
 CryptoJS is a growing collection of standard and secure cryptographic algorithms implemented in JavaScript using best practices and patterns. They are fast, and they have a consistent and simple interface.
 
+It is based on [https://code.google.com/p/crypto-js/](https://code.google.com/p/crypto-js/) and this repo is for distribution on `bower`.
+
+## Install
+
+Install with `bower`:
+
+```shell
+bower install jakubzapletal-crypto-js
+```
+
 ## Hashers ##
 
 ### The Hasher Algorithms ###
@@ -10,10 +20,12 @@ CryptoJS is a growing collection of standard and secure cryptographic algorithms
 
 MD5 is a widely used hash function. It's been used in a variety of security applications and is also commonly used to check the integrity of files. Though, MD5 is not collision resistant, and it isn't suitable for applications like SSL certificates or digital signatures that rely on this property.
 
-    <script src="http://crypto-js.googlecode.com/svn/tags/3.1/build/rollups/md5.js"></script>
-    <script>
-        var hash = CryptoJS.MD5("Message");
-    </script>
+```html
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1/build/rollups/md5.js"></script>
+<script>
+    var hash = CryptoJS.MD5("Message");
+</script>
+```
 
 #### SHA-1 ####
 
